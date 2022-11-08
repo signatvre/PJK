@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+.background_img {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
