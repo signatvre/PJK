@@ -1,12 +1,38 @@
 * {
+    /* general setup */
     margin: 0px;
     padding: 0px;
     /* overflow: hidden; */
+    
+    /* add fonts and set as default */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif; 
 }
+
+.welcome_page{
+    position: relative;
+    text-align: center;
+}
+
 .background_img {
     margin: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    pointer-events: none;
 }
 
+.logo_text {
+    position: absolute;
+}
+
+.slogan_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 4.75rem;
+    color: white;
+    text-align: center;
+}
