@@ -27,7 +27,7 @@
 .navbar {
   position: absolute;
   top: 10px;
-  color: white;
+  color: #2f2f2f;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -42,7 +42,7 @@ li {
 .logo_text {
   font-weight: 500;
   font-size: 1.75rem;
-  color: white;
+  color: #2f2f2f;
   text-decoration: none;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -51,7 +51,7 @@ li {
 .home_text {
   font-weight: normal;
   font-size: 1.125rem;
-  color: white;
+  color: #2f2f2f;
   text-decoration: none;
   padding-right: 1rem;
 }
@@ -59,7 +59,7 @@ li {
 .about_text {
   font-weight: normal;
   font-size: 1.125rem;
-  color: white;
+  color: #2f2f2f;
   text-decoration: none;
   padding-right: 1rem;
   vertical-align: middle;
@@ -68,12 +68,25 @@ li {
 .project_text {
   font-weight: normal;
   font-size: 1.125rem;
-  color: white;
+  color: #2f2f2f;
   text-decoration: none;
   vertical-align: middle;
 }
 
 /* main content */
+.carousell_img {
+  margin: 0;
+  object-fit: cover;
+  pointer-events: none;
+  width: 75%;
+  height: 55%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  border-radius: 15px;
+}
+
 .main_greeting {
   position: absolute;
   top: 50%;
@@ -92,26 +105,4 @@ li {
   font-size: 4.75rem;
   color: white;
   text-align: center;
-}
-
-/* scroll for more */
-.scroll_for_more {
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.arrow_down {
-  display: block;
-  margin: auto;
-  padding-top: 0.8rem;
-  height: 20%;
-  width: 20%;
-}
-
-.scroll_text {
-  font-size: 1.125rem;
-  font-weight: 400;
 }
