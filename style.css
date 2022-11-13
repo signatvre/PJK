@@ -49,6 +49,7 @@ li {
 
 .nav_elements {
   padding-left: 30vw;
+  overflow: visible;
 }
 
 .home_text {
@@ -57,6 +58,13 @@ li {
   color: #2f2f2f;
   text-decoration: none;
   padding-right: 1vw;
+}
+
+.highlighter_navbar {
+  width: 75px;
+  height: 10px;
+  background-color: #dde5b6;
+  border-radius: 15px;
 }
 
 .about_text {
