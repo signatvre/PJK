@@ -45,7 +45,10 @@ li {
   font-size: 1.75rem;
   color: #2f2f2f;
   text-decoration: none;
-  padding-right: 30vw;
+}
+
+.nav_elements {
+  padding-left: 30vw;
 }
 
 .home_text {
