@@ -31,6 +31,7 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-bottom: 2rem;
 }
 
 li {
@@ -44,8 +45,7 @@ li {
   font-size: 1.75rem;
   color: #2f2f2f;
   text-decoration: none;
-  padding-right: 2rem;
-  padding-top: 1rem;
+  padding-right: 30vw;
 }
 
 .home_text {
@@ -53,7 +53,7 @@ li {
   font-size: 1.125rem;
   color: #2f2f2f;
   text-decoration: none;
-  padding-right: 1rem;
+  padding-right: 1vw;
 }
 
 .about_text {
@@ -61,7 +61,7 @@ li {
   font-size: 1.125rem;
   color: #2f2f2f;
   text-decoration: none;
-  padding-right: 1rem;
+  padding-right: 1vw;
   vertical-align: middle;
 }
 
@@ -71,6 +71,7 @@ li {
   color: #2f2f2f;
   text-decoration: none;
   vertical-align: middle;
+  padding-right: 1vw;
 }
 
 /* main content */
