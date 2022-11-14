@@ -15,14 +15,6 @@
   text-align: center;
 }
 
-.background_img {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  pointer-events: none;
-}
-
 /* navbar elements */
 .navbar {
   position: absolute;
@@ -60,7 +52,7 @@ li {
 }
 
 .highlighter_navbar {
-  width: 75px;
+  width: 50px;
   height: 10px;
   background-color: #dde5b6;
   border-radius: 15px;
@@ -84,7 +76,7 @@ li {
   padding-right: 1vw;
 }
 
-/* main content */
+/* carousell content */
 .carousell_blur {
   position: relative;
   width: 30vw;
@@ -129,4 +121,73 @@ li {
   font-size: 4.75rem;
   color: white;
   text-align: center;
+}
+
+/* section */
+.divider_1 {
+  position: relative;
+  margin-top: 75vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  border: 1px solid #f4f4f4;
+  border-radius: 20;
+}
+
+/* first paragraph text section (about us) */
+.heading_about {
+  margin-top: 2rem;
+  color: #2f2f2f;
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.text_about {
+  margin-top: 1rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #2f2f2f;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* section */
+.divider_2 {
+  position: relative;
+  margin-top: 4vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  border: 1px solid #f4f4f4;
+  border-radius: 20;
+}
+
+/* second paragraph (our project */
+.heading_project {
+  margin-top: 2rem;
+  color: #2f2f2f;
+  font-weight: 500;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.text_project {
+  margin-top: 1rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #2f2f2f;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* bottom segment */
+
+.check_it_link_2 {
+  text-decoration: none;
+  color: #2f2f2f;
 }
