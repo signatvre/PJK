@@ -131,8 +131,10 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70vw;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
   border-radius: 20;
+  height: 1px;
 }
 
 /* first paragraph text section (about us) */
@@ -140,14 +142,14 @@ li {
   margin-top: 2rem;
   color: #2f2f2f;
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
 .text_about {
   margin-top: 1rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20vw;
+  margin-right: 20vw;
   color: #2f2f2f;
   font-weight: 400;
   font-size: 1.3rem;
@@ -162,8 +164,10 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70vw;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
   border-radius: 20;
+  height: 1px;
 }
 
 /* second paragraph (our project */
@@ -171,14 +175,14 @@ li {
   margin-top: 2rem;
   color: #2f2f2f;
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
 .text_project {
   margin-top: 1rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20vw;
+  margin-right: 20vw;
   color: #2f2f2f;
   font-weight: 400;
   font-size: 1.3rem;
@@ -186,8 +190,23 @@ li {
 }
 
 /* bottom segment */
+.check_button {
+  margin: auto;
+  width: 140px;
+  border: 3px solid #dde5b6;
+  background-color: #dde5b6;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
 .check_it_link_2 {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
   color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
 }
