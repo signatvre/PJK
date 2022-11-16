@@ -2,219 +2,106 @@
   /* general setup */
   margin: 0px;
   padding: 0px;
-  /* overflow: hidden; */
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 
   /* add fonts and set font family as default */
   @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
   font-family: "Roboto", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* basic page setup */
-.welcome_page {
-  position: relative;
-  text-align: center;
-}
-
 /* navbar elements */
-.navbar {
-  position: absolute;
-  top: 10px;
-  color: #2f2f2f;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-bottom: 2rem;
-}
-
-li {
-  list-style-type: none;
-  display: inline;
-  float: left;
-}
-
-.logo_text {
-  font-weight: 500;
-  font-size: 1.75rem;
-  color: #2f2f2f;
-  text-decoration: none;
-}
-
-.nav_elements {
-  padding-left: 30vw;
-}
-
-.home_text {
+li,
+a {
   font-weight: normal;
   font-size: 1.125rem;
   color: #2f2f2f;
   text-decoration: none;
-  padding-right: 1vw;
 }
 
-.highlighter_navbar {
-  width: 50px;
-  height: 10px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30%;
+  padding-bottom: 10px;
+}
+
+.logo_text {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #2f2f2f;
+  cursor: pointer;
+}
+
+.project_list {
   background-color: #dde5b6;
   border-radius: 15px;
 }
 
-.about_text {
-  font-weight: normal;
-  font-size: 1.125rem;
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #dde5b6;
+}
+
+.divider_1 {
+  margin: auto;
+  width: 70vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+}
+
+/* slogan */
+.main_slogan {
+  font-size: 5rem;
+  text-align: center;
   color: #2f2f2f;
-  text-decoration: none;
-  padding-right: 1vw;
-  vertical-align: middle;
-}
-
-.project_text {
-  font-weight: normal;
-  font-size: 1.125rem;
-  color: #2f2f2f;
-  text-decoration: none;
-  vertical-align: middle;
-  padding-right: 1vw;
-}
-
-/* carousell content */
-.carousell_blur {
-  position: relative;
-  width: 30vw;
-  height: 55vh;
-  filter: blur(10px);
-  top: 50%;
-  left: 50%;
-  transform: translate(-126%, 26%);
-  border-radius: 15px 0px 0px 15px;
-  background-color: #2f2f2f;
-}
-
-.carousell_img {
-  margin: 0;
-  object-fit: cover;
-  pointer-events: none;
-  width: 75%;
-  height: 55%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -65%);
-  border-radius: 15px;
   filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
 }
 
-.main_greeting {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.62));
+/* fancy page thingy */
+section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
 }
 
-.slogan_text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -220%);
-  font-weight: bold;
-  font-size: 4.75rem;
-  color: white;
-  text-align: center;
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
-
-/* section */
-.divider_1 {
-  position: relative;
-  margin-top: 75vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70vw;
-  border: 1px solid #f0efef;
-  background-color: #f0efef;
-  border-radius: 20;
-  height: 1px;
-}
-
-/* first paragraph text section (about us) */
-.heading_about {
-  margin-top: 2rem;
-  color: #2f2f2f;
-  font-weight: 500;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.text_about {
-  margin-top: 1rem;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  color: #2f2f2f;
-  font-weight: 400;
-  font-size: 1.3rem;
-  text-align: center;
-}
-
-/* section */
-.divider_2 {
-  position: relative;
-  margin-top: 4vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70vw;
-  border: 1px solid #f0efef;
-  background-color: #f0efef;
-  border-radius: 20;
-  height: 1px;
-}
-
-/* second paragraph (our project */
-.heading_project {
-  margin-top: 2rem;
-  color: #2f2f2f;
-  font-weight: 500;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.text_project {
-  margin-top: 1rem;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  color: #2f2f2f;
-  font-weight: 400;
-  font-size: 1.3rem;
-  text-align: center;
-}
-
-.list_project {
-  margin-top: 1rem;
-  color: #2f2f2f;
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  text-align: center;
-}
-
-/* bottom segment */
-.check_button {
+/* next page button */
+.next_button {
   margin: auto;
+  margin-top: 20px;
   width: 140px;
   border: 3px solid #dde5b6;
   background-color: #dde5b6;
   border-radius: 10px;
-  margin-top: 40px;
-  margin-bottom: 20px;
 }
 
-.check_it_link_2 {
+.next_link_2 {
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
@@ -222,5 +109,5 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3px;
+  padding: 2px;
 }
