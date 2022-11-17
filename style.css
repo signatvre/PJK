@@ -10,6 +10,9 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+}
+
 /* navbar elements, actually looks kinda nice, maybe a little big but yeah */
 li,
 a {
@@ -139,4 +142,94 @@ header {
   justify-content: center;
   align-items: center;
   padding: 4px;
+}
+
+/* ANIMATIONS LETS FUCKING GOOOOOOO HYPEEEEE */
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* animation changes to elements */
+li,
+a {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.divider_1 {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.main_slogan {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+}
+
+.heading_about {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 700ms;
+}
+
+.text_about {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 900ms;
+}
+
+.divider_2 {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1100ms;
+}
+
+.heading_project {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1300ms;
+}
+
+.text_project {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1500ms;
+}
+
+.next_button {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1700ms;
+}
+
+.next_link_2 {
+  opacity: 0%;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1900ms;
 }
