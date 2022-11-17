@@ -34,7 +34,7 @@ header {
   cursor: pointer;
 }
 
-.project_list {
+.home_list {
   background-color: #dde5b6;
   border-radius: 15px;
 }
@@ -56,9 +56,15 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links .about_list :hover,
+.project_list :hover {
   transition: all 0.3s ease 0s;
   color: #dde5b6;
+}
+
+.nav_links .home_list :hover {
+  transition: all 0.3s ease 0s;
+  color: white;
 }
 
 .divider_1 {
@@ -91,14 +97,42 @@ section {
   overflow-y: scroll;
   height: 100vh;
 }
+
+/* paragraph content */
+.heading_project,
+.heading_about {
+  padding-top: 10%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.text_project,
+.text_about {
+  font-size: 1.225rem;
+  text-align: center;
+  margin: 0px 30vw;
+}
+
+.divider_2 {
+  margin: auto;
+  width: 70vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 10vh;
+}
 /* next page button */
 .next_button {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 140px;
   border: 3px solid #dde5b6;
   background-color: #dde5b6;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .next_link_2 {
@@ -109,5 +143,5 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2px;
+  /*   padding: 2px; */
 }

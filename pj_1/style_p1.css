@@ -56,9 +56,15 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links .about_list :hover,
+.home_list :hover {
   transition: all 0.3s ease 0s;
   color: #dde5b6;
+}
+
+.nav_links .project_list :hover {
+  transition: all 0.3s ease 0s;
+  color: white;
 }
 
 .divider_1 {
