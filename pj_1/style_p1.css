@@ -76,6 +76,51 @@ header {
   height: 1px;
 }
 
+/* fancy page thingy */
+section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* content first page */
+.un_quote {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.divider_2 {
+  margin: auto;
+  width: 70vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.paragraph_text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  color: #2f2f2f;
+}
+
 /* bottom segment */
 .next_button {
   margin: auto;
