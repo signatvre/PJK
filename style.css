@@ -156,21 +156,21 @@ header {
 li,
 a {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 .divider_1 {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 .main_slogan {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 500ms;
@@ -178,7 +178,7 @@ a {
 
 .heading_about {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 700ms;
@@ -186,7 +186,7 @@ a {
 
 .text_about {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 900ms;
@@ -194,7 +194,7 @@ a {
 
 .divider_2 {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 1100ms;
@@ -202,7 +202,7 @@ a {
 
 .heading_project {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 1300ms;
@@ -210,7 +210,7 @@ a {
 
 .text_project {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 1500ms;
@@ -218,7 +218,7 @@ a {
 
 .next_button {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 1700ms;
@@ -226,7 +226,7 @@ a {
 
 .next_link_2 {
   opacity: 0%;
-  animation: fadeInAnimation ease 2s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-delay: 1900ms;
