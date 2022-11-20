@@ -137,6 +137,7 @@ header {
 }
 
 .img_div {
+  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
   text-align: center;
 }
 
@@ -217,6 +218,7 @@ header {
 .img_container {
   margin-top: 7vh;
   text-align: center;
+  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
 }
 
 .img_page4 {
