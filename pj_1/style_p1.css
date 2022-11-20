@@ -167,19 +167,44 @@ header {
   color: #2f2f2f;
 }
 
+.divider_3 {
+  margin: auto;
+  width: 60vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.heading_measures {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #2f2f2f;
+  margin-bottom: 4vh;
+}
+
 .measures_container {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
   margin-left: 20vw;
   margin-right: 20vw;
   color: #2f2f2f;
 }
 
 .measures_container p {
-  margin: 10px;
+  flex: 300px;
+  font-size: 1.1rem;
 }
+
+/* .measures_container p {
+  margin: 10px;
+} */
 /* bottom segment */
 .next_button {
   margin: auto;
