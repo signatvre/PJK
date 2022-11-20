@@ -76,6 +76,76 @@ header {
   height: 1px;
 }
 
+/* question page 1 */
+.question_p1 {
+  color: #2f2f2f;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 25vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.divider_2 {
+  margin: auto;
+  width: 60vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.paragraph_page1 {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* page 2 baby lets fucking goo */
+.heading_page2 {
+  text-align: center;
+  padding-top: 37px;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.img_container {
+  text-align: center;
+}
+
+.emissions_img {
+  width: 60%;
+  height: 60%;
+  margin-top: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.divider_3 {
+  margin: auto;
+  width: 60vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.img_text_p2 {
+  margin-top: 50px;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
@@ -97,4 +167,18 @@ header {
   justify-content: center;
   align-items: center;
   padding: 4px;
+}
+
+/* fancy page thingy */
+section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
