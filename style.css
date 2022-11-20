@@ -106,11 +106,12 @@ header {
   font-size: 1.2rem;
   text-align: center;
   margin: 0px 25vw;
+  color: #2f2f2f;
 }
 
 .divider_2 {
   margin: auto;
-  width: 70vw;
+  width: 60vw;
   border: 1px solid #f0efef;
   background-color: #f0efef;
   border-radius: 20;
