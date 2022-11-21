@@ -162,6 +162,26 @@ header {
   margin-left: 20vw;
   margin-right: 20vw;
 }
+
+/* page 4 content lets fuckin get it finish line righ here */
+.img_container_4 {
+  text-align: center;
+}
+
+.amnt_img {
+  margin-top: 5vh;
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+.paragraph_p4 {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+}
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
