@@ -29,7 +29,7 @@ header {
 
 .logo_text {
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #2f2f2f;
   cursor: pointer;
 }
@@ -84,7 +84,7 @@ header {
   border: 3px solid #dde5b6;
   background-color: #dde5b6;
   border-radius: 10px;
-  margin-bottom: 40px;
+  /* margin-bottom: 10px; */
   filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
 }
 
