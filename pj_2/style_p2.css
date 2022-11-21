@@ -126,6 +126,25 @@ header {
   margin-bottom: 20px;
 }
 
+/* page 3 yooooooooo content */
+.heading_p3_1 {
+  text-align: center;
+  padding-top: 8vh;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.paragraph_p3_1,
+.paragraph_p3_2 {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .divider_3 {
   margin: auto;
   width: 60vw;
@@ -137,6 +156,12 @@ header {
   margin-bottom: 5vh;
 }
 
+.heading_p3_2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
