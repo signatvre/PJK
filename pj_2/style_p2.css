@@ -137,15 +137,6 @@ header {
   margin-bottom: 5vh;
 }
 
-.img_text_p2 {
-  margin-top: 50px;
-  color: #2f2f2f;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
