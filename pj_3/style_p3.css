@@ -104,28 +104,6 @@ header {
   width: 50%;
   height: 50%;
 }
-/* next page button, make go to next page thing yeah */
-.next_button {
-  margin: auto;
-  margin-top: 10vh;
-  width: 140px;
-  border: 3px solid #dde5b6;
-  background-color: #dde5b6;
-  border-radius: 10px;
-  /* margin-bottom: 10px; */
-  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
-}
-
-.next_link_2 {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  color: #2f2f2f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4px;
-}
 
 /* page 2 yessss */
 .page_2 p {
@@ -181,17 +159,60 @@ header {
 }
 
 .page_4 p {
-  /*   margin-left: 15vw;
-  margin-right: 15vw; */
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
 }
+
 .flexbox_container {
   margin-top: 10vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+/* page 5 wtf man */
+.page_5 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+}
+
+.page_5 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* next page button, make go to next page thing yeah */
+.next_button {
+  margin: auto;
+  margin-top: 10vh;
+  width: 140px;
+  border: 3px solid #dde5b6;
+  background-color: #dde5b6;
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.25));
+}
+
+.next_link_2 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
 /* fancy page thingy */
 section {
   height: 100vh;
