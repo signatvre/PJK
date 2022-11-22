@@ -185,7 +185,7 @@ header {
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 9vh;
   width: 140px;
   border: 3px solid #dde5b6;
   background-color: #dde5b6;
