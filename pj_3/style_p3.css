@@ -76,6 +76,34 @@ header {
   height: 1px;
 }
 
+.paragraph_p1 {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.divider_2 {
+  margin: auto;
+  width: 70vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.img_container {
+  text-align: center;
+}
+
+.img_personenverkehr {
+  width: 50%;
+  height: 50%;
+}
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
@@ -97,4 +125,83 @@ header {
   justify-content: center;
   align-items: center;
   padding: 4px;
+}
+
+/* page 2 yessss */
+.page_2 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.page_2 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+}
+
+.paragraph_p2_1 {
+  margin-top: 20vh;
+}
+
+/* page 3 leude ist das ein geiles gefühl */
+.page_3 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+}
+
+.page_3 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 15vh;
+}
+
+.img_benutzung {
+  width: 50%;
+  height: 50%;
+}
+
+/* page 4 fucking hypeeeeeee */
+.page_4 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+}
+
+.page_4 p {
+  /*   margin-left: 15vw;
+  margin-right: 15vw; */
+}
+.flexbox_container {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* fancy page thingy */
+section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
