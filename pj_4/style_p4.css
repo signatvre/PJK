@@ -76,11 +76,159 @@ header {
   height: 1px;
 }
 
+/* content for page 1 istg i wanna finish this quick */
+.content_page_1 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 20vh;
+}
+
+.divider_2 {
+  margin: auto;
+  width: 60vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.content_page_1 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* page 2 alright im actually quite speedy */
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.germany_energy_production {
+  width: 40%;
+  height: 40%;
+}
+
+.sweden_energy_production {
+  width: 40%;
+  height: 40%;
+}
+
+/* page 3 ; im feeling pretty good about this honestly */
+.page_3 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.heading_page_3 {
+  padding-top: 37px;
+}
+
+.page_3 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5vh;
+}
+
+/* page 4 this is pretty easy ; famous last words */
+.page_4 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.heading_page_4 {
+  padding-top: 37px;
+}
+
+.page_4 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5vh;
+}
+
+/* page 5 and the shit is pretty hard imma be honest */
+.page_5 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.heading_page_5 {
+  padding-top: 37px;
+}
+
+.page_5 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 4vh;
+}
+
+/* page 6 finally some god damn images my god */
+.page_6 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+  margin-bottom: 5vh;
+}
+.escalator_blue {
+  width: 35%;
+  height: 35%;
+  border-radius: 15px;
+}
+
+.other_escalator {
+  width: 35%;
+  height: 35%;
+  border-radius: 15px;
+}
+
+/* page 7 OMG YES FINALLY FINISHING */
+.page_7 h2 {
+  text-align: center;
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 37px;
+}
+
+.page_7 p {
+  color: #2f2f2f;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 4vh;
+}
+
 /* next page button, make go to next page thing yeah */
 .next_button {
   margin: auto;
   margin-top: 10vh;
-  width: 140px;
+  width: 160px;
   border: 3px solid #dde5b6;
   background-color: #dde5b6;
   border-radius: 10px;
@@ -96,5 +244,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 8px;
+}
+
+/* fancy page thingy */
+section {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
