@@ -87,6 +87,15 @@ header {
   margin-right: 10vw;
 }
 
+.magic {
+  animation: background-pan 8s linear infinite;
+  background: linear-gradient(to right, #bbc299, #41cac4, #a2c2e4, #bbc299);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
 /* paragraph content, about us and about the project */
 .paragraphs {
   padding-top: 10%;
@@ -149,6 +158,16 @@ header {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
   }
 }
 

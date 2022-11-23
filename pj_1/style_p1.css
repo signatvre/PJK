@@ -87,11 +87,14 @@ header {
   margin-right: 20vw;
 }
 
-.un_quote {
+.content_1 p {
   font-weight: 400;
-  font-size: 1.4rem;
   text-align: center;
   color: #2f2f2f;
+}
+
+.un_quote {
+  font-size: 1.4rem;
 }
 
 .divider_2 {
@@ -105,14 +108,11 @@ header {
 }
 
 .paragraph_text {
-  font-weight: 400;
   font-size: 1.2rem;
-  text-align: center;
-  color: #2f2f2f;
 }
 
 /* content second page */
-.page2_heading {
+.page_2 h2 {
   text-align: center;
   color: #2f2f2f;
   margin-bottom: 10px;
@@ -147,11 +147,16 @@ header {
 }
 
 /* page 3 content */
-.page3_heading {
-  text-align: center;
+.page_3 h2 {
   color: #2f2f2f;
   margin-bottom: 10px;
   padding-top: 37px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.page3_heading {
+  text-align: center;
 }
 
 .page3_content_paragraph {
@@ -175,8 +180,6 @@ header {
 }
 
 .heading_measures {
-  padding-left: 20vw;
-  padding-right: 20vw;
   color: #2f2f2f;
   margin-bottom: 4vh;
 }
@@ -197,7 +200,7 @@ header {
 }
 
 /* content page 4 */
-.page4_heading {
+.page_4 h2 {
   text-align: center;
   color: #2f2f2f;
   margin-bottom: 10px;
