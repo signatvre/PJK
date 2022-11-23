@@ -116,6 +116,16 @@ header {
   width: 40%;
   height: 40%;
 }
+.divider_3 {
+  margin: auto;
+  width: 60vw;
+  border: 1px solid #f0efef;
+  background-color: #f0efef;
+  border-radius: 20;
+  height: 1px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
 
 .sweden_energy_production {
   width: 40%;
