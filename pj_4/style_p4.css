@@ -248,13 +248,13 @@ header {
 
 .next_link_2 {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
   color: #2f2f2f;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 4px;
 }
 
 /* fancy page thingy */
